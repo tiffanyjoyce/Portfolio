@@ -1,0 +1,122 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+     body,html { 
+         background-color: black;
+         height: 100%;
+         margin: 0px;
+ }
+ 
+ nav li {
+     display: inline;
+     margin:10px;
+ }
+ nav li:hover {
+    color: pink;
+ }
+ nav ul {
+     background-color: black;
+     margin: 0 auto;
+     list-style-type: none;
+     width: fit-content;
+     padding: 20px;
+ }
+ nav {
+     display: block;
+     color: white;
+     background-color: black;
+     display: flex;
+     align-items: center;
+ }
+ nav a {
+     color: white;
+     /* text-decoration-line: none; */
+ 
+ }
+ nav h1 {
+    padding-left: 20px;
+ }
+ .top-image{
+     background-image:url(images/butterfly.png);
+     height: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     position: relative;
+ }
+ .top-text {
+     color: white;
+     text-align: center;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ .aboutme-bar {
+     width: 80%;
+     background-color: rgb(242, 146, 57);
+     margin: 10px auto;
+     border: solid white;
+ }
+ #aboutmebar-text{
+    text-align: center;
+    margin: 0;
+    padding: 4px;
+    font-size: large;
+ }
+ .flexbox {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     align-content: center;
+     max-width: 800px;
+     margin: 10px auto;
+ }
+ .flexbox-container{
+     width: 90%;
+     display:flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     border: 1px rgba(0, 0, 0, 0.519);
+     border-style: solid hidden solid hidden;
+     position: relative;
+ }
+ .flexbox-item-1 {
+     max-height: 400px;
+     min-height: 300px;
+     margin: 10px;
+ }
+ .flexbox-item-2 {
+     min-height: 300px;
+     color: white;
+     width: 90%;
+ }
+ #button-text {
+     text-align: center;
+     width: max-content;
+     color: white;
+     padding: 5px;
+ }
+ #list {
+     list-style-type: none;
+     padding: 20px;
+     margin: 20px;
+ }
+ .question-box {
+    width: 400px;
+    height: 200px;
+    margin: 40px;
+ }
+ .questionbox-label{
+    color: white;
+
+ }
+ .bottom-form {
+    align-items: center;
+ }
+ .label {
+    color: white;
+    margin: 0;
+    text-align: center;
+ }
